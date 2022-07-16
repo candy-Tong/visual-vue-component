@@ -16,7 +16,6 @@ const args = minimist(process.argv.slice(2));
 const pkgDir = process.cwd();
 const pkgPath = path.resolve(pkgDir, 'package.json');
 
-// eslint-disable-next-line import/no-dynamic-require,@typescript-eslint/no-require-imports
 const pkg: { name: string; version: string } = require(pkgPath);
 const pkgName = pkg.name.replace(/^@tencent\//, '').replace('tds-vue-plugin-', '');
 const currentVersion = pkg.version;
