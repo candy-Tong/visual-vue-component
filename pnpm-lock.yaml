@@ -7,6 +7,7 @@ importers:
       '@babel/core': ^7.18.5
       '@commitlint/cli': ^16.2.3
       '@commitlint/config-conventional': ^16.2.1
+      '@types/minimist': ^1.2.2
       '@types/node': ^17.0.12
       '@types/prompts': ^2.0.14
       '@types/semver': ^7.3.9
@@ -37,6 +38,7 @@ importers:
       '@babel/core': 7.18.5
       '@commitlint/cli': 16.3.0
       '@commitlint/config-conventional': 16.2.4
+      '@types/minimist': 1.2.2
       '@types/node': 17.0.18
       '@types/prompts': 2.0.14
       '@types/semver': 7.3.9
