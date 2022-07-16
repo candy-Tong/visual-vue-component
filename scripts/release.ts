@@ -102,7 +102,7 @@ async function main(): Promise<void> {
   }
 
   // 生成标签
-  const tag = pkgName === `${pkgName}@${targetVersion}`;
+  const tag = `${pkgName}@${targetVersion}`;
 
   // 是否打 beta 标签
   if (targetVersion.includes('beta') && !args.tag) {
